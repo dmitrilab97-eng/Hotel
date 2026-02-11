@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Номери готелю</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Наші номери</h1>
+
+<div class="rooms">
+
+    <!-- СТАНДАРТ -->
+    <div class="room">
+        <h2>Стандарт</h2>
+        <p>Комфортний номер для 1-2 осіб з базовими зручностями.</p>
+        <p class="price">Ціна: 1900 грн / ніч</p>
+
+        <div class="slider">
+            <img src="standart.jpg" class="slide active">
+            <img src="standart2.jpg" class="slide">
+            
+        </div>
+
+        <button onclick="bookRoom('Стандарт')">Забронювати</button>
+    </div>
+
+    <!-- НАПІВЛЮКС -->
+    <div class="room">
+        <h2>Напівлюкс</h2>
+        <p>Просторий номер із покращеним інтер’єром та зоною відпочинку.</p>
+        <p class="price">Ціна: 2800 грн / ніч</p>
+
+        <div class="slider">
+            <img src="napivL.jpg" class="slide active">
+            <img src="NapivL2.jpg" class="slide">
+            
+        </div>
+
+        <button onclick="bookRoom('Напівлюкс')">Забронювати</button>
+    </div>
+
+    <!-- ЛЮКС -->
+    <div class="room">
+        <h2>Люкс</h2>
+        <p>Розкішний номер із окремою спальнею та вітальнею.</p>
+        <p class="price">Ціна: 3500 грн / ніч</p>
+
+        <div class="slider">
+            <img src="Lucs.jpg" class="slide active">
+            <img src="Lucs2.jpg" class="slide">
+            
+        </div>
+
+        <button onclick="bookRoom('Люкс')">Забронювати</button>
+    </div>
+
+    <!-- ПОКРАЩЕНИЙ ЛЮКС -->
+    <div class="room">
+        <h2>Покращений люкс</h2>
+        <p>Ексклюзивний номер з панорамним видом та преміальним сервісом.</p>
+        <p class="price">Ціна: 5000 грн / ніч</p>
+
+        <div class="slider">
+            <img src="LucsKK.jpg" class="slide active">
+            <img src="LucsK.jpg" class="slide">
+            
+        </div>
+
+        <button onclick="bookRoom('Покращений люкс')">Забронювати</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
