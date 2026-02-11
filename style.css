@@ -289,3 +289,29 @@ button {
 button:hover {
     background: #005fd1;
 }
+
+header {
+    background: #1f2937;
+    padding: 15px 20px;
+    color: white;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #3b82f6;
+}
