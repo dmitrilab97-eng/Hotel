@@ -14,10 +14,3 @@ document.querySelectorAll('.slider').forEach(slider => {
 function bookRoom(roomName) {
     alert("Ви обрали номер: " + roomName);
 }
-
-function bookRoom(roomName) {
-    alert("Ви обрали номер: " + roomName + 
-          "\nНаш менеджер зв'яжеться з вами найближчим часом.");
-
-    console.log("Бронювання номера:", roomName);
-}

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Ресторан — Цифровий Готель</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-container">
+        <div class="logo">
+            <img src="logo.png">
+            <h2>Цифровий Готель</h2>
+        </div>
+
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="rooms.html">Номери</a>
+            <a href="restaurant.html">Ресторан</a>
+            <a href="about.html">Про нас</a>
+            <a href="contact.html">Контакти</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" style="background:url('https://images.unsplash.com/photo-1555396273-367ea4eb4db5') center/cover;">
+    <h1>Ресторан</h1>
+    <p>Європейська кухня</p>
+</section>
+
+<section>
+
+    <h2>Меню</h2>
+
+    <!-- ФІЛЬТР -->
+   <section>
+
+    <h2>Меню</h2>
+
+    <div class="filter-btns">
+        <button onclick="filterMenu('all')">Все</button>
+        <button onclick="filterMenu('salad')">Закуски</button>
+        <button onclick="filterMenu('pasta')">Паста</button>
+        <button onclick="filterMenu('main')">Основні</button>
+        <button onclick="filterMenu('dessert')">Десерти</button>
+        <button onclick="filterMenu('drink')">Напої</button>
+    </div>
+
+    <div class="rooms">
+
+        <!-- 🥗 ЗАКУСКИ -->
+        <div class="room salad"><img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c"><div class="room-content"><h3>Салат Цезар</h3><div class="price">220 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room salad"><img src="https://montana.ua/upload/resize_cache/webp/iblock/af1/600_600_1/af1d989a482d86266518e92f6e282725.webp"><div class="room-content"><h3>Брускети</h3><div class="price">180 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room salad"><img src="https://salad.com.ua/sites/default/files/products/sirna-tarilka.jpg"><div class="room-content"><h3>Сирна тарілка</h3><div class="price">260 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room salad"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk_CnJrtX8-zmdoYY_YymKamsAzAQYmIj4ew&s"><div class="room-content"><h3>Капрезе</h3><div class="price">200 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <!-- 🍝 ПАСТА -->
+        <div class="room pasta"><img src="https://i.evrasia.in.ua/data/558_0/products/Lhm6HJbNA8eDlzMHQuJT2Yit8gcEo7FLxi1YW0o6.jpg"><div class="room-content"><h3>Карбонара</h3><div class="price">300 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room pasta"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwRM0t4nRUXNdGB6v7j6vp4XPTnDbOwHJ2Bg&s"><div class="room-content"><h3>Болоньєзе</h3><div class="price">320 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room pasta"><img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601"><div class="room-content"><h3>Паста з морепродуктами</h3><div class="price">380 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room pasta"><img src="https://images.unsplash.com/photo-1551183053-bf91a1d81141"><div class="room-content"><h3>Паста з грибами</h3><div class="price">290 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <!-- 🍖 ОСНОВНІ -->
+        <div class="room main"><img src="https://kokl.ua/wp-content/uploads/2025/10/de-gotuyut-najkrashhi-myasni-stejky-v-kyyevi.jpg"><div class="room-content"><h3>Стейк</h3><div class="price">450 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room main"><img src="https://shuba.life/static/content/thumbs/1824x912/b/0b/zriuqf---c2x1x50px50p-up--8b3b9d1360b573f0f928bc9653ce60bb.jpg"><div class="room-content"><h3>Курка з овочами</h3><div class="price">350 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room main"><img src="https://www.enders.com.ua/image/catalog/art/gotovim-stejk-lososja.jpg"><div class="room-content"><h3>Лосось на грилі</h3><div class="price">420 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room main"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUE7z6jqHSqkenqcVVK1JXM1-gE77mDW7qqg&s"><div class="room-content"><h3>Різото</h3><div class="price">310 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <!-- 🍰 ДЕСЕРТИ -->
+        <div class="room dessert"><img src="https://kyivvlada.com.ua/project/resources/2018/08/redactor/jlwz3Jmp.jpg"><div class="room-content"><h3>Тірамісу</h3><div class="price">180 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room dessert"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuTm6zE8q2_9Kx7Fs_ORK3_oMWiRPeWxMnjg&s"><div class="room-content"><h3>Чізкейк</h3><div class="price">170 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room dessert"><img src="https://smachna.com.ua/wp-content/uploads/2022/10/choc-fontan.webp"><div class="room-content"><h3>Шоколадний фондан</h3><div class="price">190 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room dessert"><img src="https://i.evrasia.in.ua/data/1400_0/products/nytznciVTAtFnjq1tmKAQmhWXka2TGcX3kwXRJCb.webp"><div class="room-content"><h3>Морозиво</h3><div class="price">120 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <!-- ☕ НАПОЇ -->
+        <div class="room drink"><img src="https://st2.depositphotos.com/5602294/8154/i/450/depositphotos_81548832-stock-photo-cute-hot-latte-coffee-in.jpg"><div class="room-content"><h3>Кава</h3><div class="price">80 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room drink"><img src="https://images.unsplash.com/photo-1497534446932-c925b458314e"><div class="room-content"><h3>Коктейлі</h3><div class="price">180 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room drink"><img src="https://matsuri.com.ua/img_files/gallery_commerce/products/big/commerce_products_images_245.webp?8cb22bdd0b7ba1ab13d742e22eed8da2"><div class="room-content"><h3>Сік</h3><div class="price">90 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+        <div class="room drink"><img src="https://krayinachayu.com/image/catalog/horeka.jpg"><div class="room-content"><h3>Чай</h3><div class="price">70 грн</div><button class="btn order-btn">Замовити</button></div></div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Цифровий Готель</p>
+</footer>
+
+<!-- JS -->
+<script>
+function filterMenu(category) {
+    let items = document.querySelectorAll('.room');
+
+    items.forEach(item => {
+        if (category === 'all') {
+            item.style.display = 'block';
+        } else if (item.classList.contains(category)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+</script>
+
+</body>
+</html>
