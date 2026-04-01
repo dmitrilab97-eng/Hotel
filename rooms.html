@@ -2,79 +2,148 @@
 <html lang="uk">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Номери готелю</title>
+    <title>Номери — Цифровий Готель</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<h1>Наші номери</h1>
+<header>
+    <div class="header-container">
 
-<div class="rooms">
-
-    <!-- СТАНДАРТ -->
-    <div class="room">
-        <h2>Стандарт</h2>
-        <p>Комфортний номер для 1-2 осіб з базовими зручностями.</p>
-        <p class="price">Ціна: 1900 грн / ніч</p>
-
-        <div class="slider">
-            <img src="standart.jpg" class="slide active">
-            <img src="standart2.jpg" class="slide">
-            
+        <div class="logo">
+            <img src="logo.png" alt="logo">
+            <h2>Цифровий Готель</h2>
         </div>
 
-        <button onclick="bookRoom('Стандарт')">Забронювати</button>
-    </div>
+        <nav>
+            <a href="index.html">Головна</a>
+            <a href="rooms.html">Номери</a>
+            <a href="restaurant.html">Ресторан</a>
+            <a href="about.html">Про нас</a>
+            <a href="contact.html">Контакти</a>
+        </nav>
 
-    <!-- НАПІВЛЮКС -->
+    </div>
+</header>
+
+<section class="hero">
+    <h1>Наші номери</h1>
+    <p>Оберіть ідеальний варіант для відпочинку</p>
+</section>
+
+<section class="rooms">
+
+    <!-- НОМЕР 1 -->
     <div class="room">
-        <h2>Напівлюкс</h2>
-        <p>Просторий номер із покращеним інтер’єром та зоною відпочинку.</p>
-        <p class="price">Ціна: 2800 грн / ніч</p>
 
         <div class="slider">
-            <img src="napivL.jpg" class="slide active">
-            <img src="NapivL2.jpg" class="slide">
-            
+            <img src="standart.jpg" class="active">
+            <img src="standart2.jpg">
+            <img src="standart2.jpg">
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
         </div>
 
-        <button onclick="bookRoom('Напівлюкс')">Забронювати</button>
+        <div class="room-content">
+            <h3>Стандарт</h3>
+            <p>Затишний номер для 1-2 осіб</p>
+            <div class="size">25 м²</div>
+            <div class="price">Ціна: за запитом</div>
+            <a href="booking.html"><button class="btn">Забронювати</button></a>
+        </div>
+
     </div>
 
-    <!-- ЛЮКС -->
+    <!-- НОМЕР 2 -->
     <div class="room">
-        <h2>Люкс</h2>
-        <p>Розкішний номер із окремою спальнею та вітальнею.</p>
-        <p class="price">Ціна: 3500 грн / ніч</p>
 
         <div class="slider">
-            <img src="Lucs.jpg" class="slide active">
-            <img src="Lucs2.jpg" class="slide">
-            
+            <img src="napivL.jpg" class="active">
+            <img src="NapivL2.jpg">
+            <img src="napivL.jpg">
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
         </div>
 
-        <button onclick="bookRoom('Люкс')">Забронювати</button>
+        <div class="room-content">
+            <h3>Напівлюкс</h3>
+            <p>Просторий номер із сучасним дизайном</p>
+            <div class="size">35 м²</div>
+            <div class="price">Ціна: за запитом</div>
+            <a href="booking.html"><button class="btn">Забронювати</button></a>
+        </div>
+
     </div>
 
-    <!-- ПОКРАЩЕНИЙ ЛЮКС -->
+    <!-- НОМЕР 3 -->
     <div class="room">
-        <h2>Покращений люкс</h2>
-        <p>Ексклюзивний номер з панорамним видом та преміальним сервісом.</p>
-        <p class="price">Ціна: 5000 грн / ніч</p>
 
         <div class="slider">
-            <img src="LucsKK.jpg" class="slide active">
-            <img src="LucsK.jpg" class="slide">
-            
+            <img src="Lucs.jpg" class="active">
+            <img src="Lucs2.jpg">
+            <img src="Lucs.jpg">
+
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
         </div>
 
-        <button onclick="bookRoom('Покращений люкс')">Забронювати</button>
+        <div class="room-content">
+            <h3>Люкс</h3>
+            <p>Максимальний комфорт та простір</p>
+            <div class="size">50 м²</div>
+            <div class="price">Ціна: за запитом</div>
+            <a href="booking.html"><button class="btn">Забронювати</button></a>
+        </div>
+
     </div>
+<!-- НОМЕР 4 -->
+    <div class="room">
 
-</div>
+        <div class="slider">
+            <img src="LucsK.jpg" class="active">
+            <img src="LucsKK.jpg">
+            <img src="LucsKK.jpg">
 
-<script src="script.js"></script>
+            <button class="prev">&#10094;</button>
+            <button class="next">&#10095;</button>
+        </div>
+
+        <div class="room-content">
+            <h3>Покращений Люкс</h3>
+            <p>Покращений комфорт та простір та ексклюзивний дизайн</p>
+            <div class="size">65 м²</div>
+            <div class="price">Ціна: за запитом</div>
+            <a href="booking.html"><button class="btn">Забронювати</button></a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Цифровий Готель</p>
+</footer>
+
+<!-- JS СЛАЙДЕР -->
+<script>
+document.querySelectorAll(".slider").forEach(slider => {
+    let images = slider.querySelectorAll("img");
+    let index = 0;
+
+    slider.querySelector(".next").onclick = () => {
+        images[index].classList.remove("active");
+        index = (index + 1) % images.length;
+        images[index].classList.add("active");
+    };
+
+    slider.querySelector(".prev").onclick = () => {
+        images[index].classList.remove("active");
+        index = (index - 1 + images.length) % images.length;
+        images[index].classList.add("active");
+    };
+});
+</script>
 
 </body>
 </html>
