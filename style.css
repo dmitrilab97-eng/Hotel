@@ -63,7 +63,9 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    background: url("https://images.unsplash.com/photo-1494526585095-c41746248156") center/cover no-repeat;
+    
+    background: url("https://images.unsplash.com/photo-1501117716987-c8e1ecb210a4") center/cover no-repeat;
+
     color: white;
     padding: 140px 20px;
     text-align: center;
