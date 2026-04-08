@@ -63,7 +63,8 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    background: img src="golo.jpg" center/cover no-repeat;
+    
+    background: img src="golo.jpg";
 
     color: white;
     padding: 140px 20px;
@@ -410,6 +411,3 @@ body {
     flex-direction: column;
 }
 
-main {
-    flex: 1;
-}
