@@ -9,7 +9,7 @@ body {
 
     background:
         linear-gradient(135deg, rgba(15, 23, 42, 0.9), rgba(30, 41, 59, 0.85)),
-        url("GOLO.jpg");
+        url("golo.jpg");
 
     background-size: cover;
     background-position: center;
@@ -64,7 +64,7 @@ nav a:hover {
 
 .hero {
     
-    background: url("GOLO.jpg") center/cover no-repeat;
+    background: url("golo.jpg") center/cover no-repeat;
 
     color: white;
     padding: 140px 20px;
