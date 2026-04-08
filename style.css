@@ -63,8 +63,7 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    
-    background: img src="golo.jpg";
+    background: url("golo.jpg") center/cover no-repeat;
 
     color: white;
     padding: 140px 20px;
