@@ -63,16 +63,13 @@ nav a:hover {
 /* HERO */
 
 .hero {
-    background-image: url("https://images.unsplash.com/photo-1501117716987-c8e1ecb2100f");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
+    
+    background: img src="golo.jpg";
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    color: white;
+    padding: 140px 20px;
+    text-align: center;
+    position: relative;
 }
 
 .hero::before {
@@ -80,12 +77,19 @@ nav a:hover {
     position: absolute;
     inset: 0;
     background: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0.75));
-    z-index: 0;
 }
 
-.hero h1,
-.hero p,
-.hero .btn {
+.hero h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #d1d5db;
+}
+
+.hero h1, .hero p {
     position: relative;
     z-index: 1;
 }
@@ -405,16 +409,4 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-}
-html, body {
-    height: 100%;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex: 1;
 }
