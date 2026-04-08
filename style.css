@@ -402,3 +402,15 @@ footer {
     font-weight: bold;
     color: #2563eb;
 }
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
